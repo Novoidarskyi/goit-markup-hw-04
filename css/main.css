@@ -156,6 +156,10 @@ img {
   color: var(--main-color);
 }
 
+.icon-contact-list {
+  margin-right: 10px;
+}
+
 .site-nav .site-nav-link.current {
   color: var(--accent-color);
 }
@@ -171,8 +175,8 @@ img {
     url("../images/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
-  max-width: 1600px;
+  min-height: 600px;
+  width: 1600px;
   margin-right: auto;
   margin-left: auto;
   padding-top: 200px;
@@ -306,6 +310,18 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  margin-bottom: 16px;
+}
+
+.team-social-links {
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+.social-links-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /*++++++++++ Footer ++++++++++  */
