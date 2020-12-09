@@ -373,6 +373,15 @@ img {
   border-radius: 4px;
 }
 
+.icon-clients {
+  fill: #afb1b8;
+}
+
+.clients-list-link:hover .icon-clients,
+.clients-list-link:focus .icon-clients {
+  fill: var(--accent-color);
+}
+
 /*++++++++++ Footer ++++++++++  */
 
 .footer {
