@@ -324,6 +324,27 @@ img {
   justify-content: space-between;
 }
 
+/*++++++++++ Clients ++++++++++*/
+
+.clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.clients-box {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+
+.clients-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*++++++++++ Footer ++++++++++  */
 
 .footer {
