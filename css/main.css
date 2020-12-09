@@ -327,14 +327,31 @@ img {
   margin-left: 32px;
 }
 
-.social-links-item {
+.social-links-list {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.social-links-item {
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
 .icon-social-links {
   fill: var(--main-color);
+}
+
+.social-links-item:hover,
+.social-links-items:focus {
+  background-color: var(--accent-color);
+}
+
+.social-links-item:hover .icon-social-links,
+.social-links-item:focus .icon-social-links {
+  fill: #ffffff;
 }
 
 /*++++++++++ Clients ++++++++++*/
