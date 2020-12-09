@@ -127,11 +127,6 @@ img {
   margin-right: 50px;
 }
 
-.portfolio-list-item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .contact-list {
   display: flex;
   align-items: center;
@@ -143,7 +138,8 @@ img {
 }
 
 .contact-link {
-  display: block;
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -152,6 +148,17 @@ img {
   line-height: 1.143;
   letter-spacing: 0.02em;
   color: var(--main-color);
+}
+
+.icon-contact-list {
+  margin-right: 10px;
+
+  fill: currentColor;
+}
+
+.contact-link:hover .icon-contact-list,
+.contact-link:focus .icon-contact-list {
+  fill: var(--accent-color);
 }
 
 .site-nav .site-nav-link.current {
@@ -206,7 +213,6 @@ img {
 .portfolio-list-item {
   margin-right: 30px;
   margin-bottom: 30px;
-  /* border: 1px solid #eeeeee; */
   width: calc((100% - 60px) / 3);
 }
 
@@ -216,6 +222,11 @@ img {
 
 .portfolio-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0px;
+}
+
+.portfolio-list-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .porfolio-card-name {
