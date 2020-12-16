@@ -183,7 +183,7 @@ img {
     url("../images/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 600px;
+  height: 600px;
   width: 1600px;
   margin-right: auto;
   margin-left: auto;
@@ -380,6 +380,11 @@ img {
 .clients-list-link:hover .icon-clients,
 .clients-list-link:focus .icon-clients {
   fill: var(--accent-color);
+}
+
+.clients-box:hover,
+.clients-box:focus {
+  border: 1px solid var(--accent-color);
 }
 
 /*++++++++++ Footer ++++++++++  */
