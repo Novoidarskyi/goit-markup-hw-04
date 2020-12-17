@@ -467,7 +467,7 @@ img {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.footer-social-links-item:not(:last-child) {
+.footer-social-links-list-total:not(:last-child) {
   margin-right: 10px;
 }
 
@@ -475,7 +475,15 @@ img {
   fill: #ffffff;
 }
 
-.footer-social-links-item:hover,
-.footer-social-links-item:focus {
+.footer-social-links-item:hover {
+  background-color: var(--accent-color);
+}
+
+.footer-social-link {
+  display: block;
+  border-radius: 50%;
+}
+
+.footer-social-link:focus {
   background-color: var(--accent-color);
 }
