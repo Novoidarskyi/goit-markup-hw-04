@@ -348,13 +348,23 @@ img {
   fill: var(--main-color);
 }
 
-.social-links-item:hover,
-.social-links-items:focus {
+.social-links-item:hover {
   background-color: var(--accent-color);
 }
 
-.social-links-item:hover .icon-social-links,
-.social-links-item:focus .icon-social-links {
+.social-links-item:hover .icon-social-links {
+  fill: #ffffff;
+}
+
+.social-links-list-team {
+  display: block;
+}
+
+.social-links-list-team:focus .social-links-item {
+  background-color: var(--accent-color);
+}
+
+.social-links-list-team:focus .icon-social-links {
   fill: #ffffff;
 }
 
