@@ -267,6 +267,10 @@ img {
 
 /*++++++++++ Works ++++++++++*/
 
+.works {
+  padding-bottom: 94px;
+}
+
 .woks-title-list {
   display: flex;
   align-items: center;
